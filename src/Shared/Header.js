@@ -120,7 +120,7 @@ const Header = () => {
           </Dropdown.Toggle>
           <Dropdown.Menu className="dropdown-menu-end">
             <Dropdown.Item href="https://github.com/Maalcom/intento">Malcom</Dropdown.Item>
-            <Dropdown.Item href="https://github.com/SEGUNDO_USUARIO">Rodrigo</Dropdown.Item>
+            <Dropdown.Item href="https://github.com/Rodrivgoo/Tarea5">Rodrigo</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
 
