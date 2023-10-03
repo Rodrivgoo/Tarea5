@@ -1,0 +1,121 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto; 
+  }
+
+
+
+.fotoss{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+}
+.navbar-logo img {
+    width: 10%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-right: 10px;
+}
+.letras{
+    font-family: sans-serif,'Arial Narrow', 'Franklin Gothic Medium',Arial;
+}
+.malcom,
+.Muñoz {
+  position: relative;
+  z-index: 1;
+}
+
+.malcom::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  bottom: -5px;
+  border-radius: 50%;
+  background-color: #0b0607; /* Color de la mancha */
+  transform: rotate(-3deg); /* Ajusta el ángulo de la mancha */
+  z-index: -1;
+}
+.Muñoz{
+    font-weight: bold;
+}
+.imagen{
+    width: 26.5rem;
+    height: auto;
+    border-top-width: 100rem;
+    border-radius: 25%; 
+    object-fit: cover;
+
+}
+footer{
+    margin-top: 200px;
+}
+.color-fot{
+    color: rgb(0, 3, 5);
+    text-align: center;
+    font-weight: 50;
+}
+.color-link{
+    color: rgb(30, 29, 29);
+    font-weight: 50;
+    transition: color 0.3s; /* Añadimos una transición suave */
+    cursor: pointer; /* Cambiamos el cursor al pasar sobre el texto */
+
+}
+.color-link:hover{
+    color: blue;
+}
+.posicion{
+    margin-top: 20px; /* Ajusta la separación vertical */
+    text-align: center; /* Centra horizontalmente */
+}
+.maain{
+    margin-top: 50px;
+}
+.nav-link-opacity {
+    color: white; /* Color de texto deseado */
+    text-decoration: none; /* Estilo de subrayado deseado */
+    opacity: 0.5; /* Opacidad inicial (gris) */
+    transition: opacity 0.3s ease-in-out; /* Transición de opacidad suave */
+}
+  
+.nav-link-opacity:hover {
+opacity: 1; /* Opacidad al pasar el mouse (blanco) */
+}
+.black-text {
+    color: black; /* Color de texto negro */
+    text-decoration: none;
+  }
+.nav-link-opacity2 {
+color: white; /* Color de texto deseado */
+text-decoration: none; /* Estilo de subrayado deseado */
+opacity: 0.8; /* Opacidad inicial (gris) */
+transition: opacity 0.3s ease-in-out; /* Transición de opacidad suave */
+}
+  
+.nav-link-opacity2:hover {
+opacity: 1; /* Opacidad al pasar el mouse (blanco) */
+}
+.expanded-image {
+    margin-top: 20px; /* Margen superior */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; /* Cambia la dirección a horizontal */
+    text-align: center;
+  }
+  
+  .expanded-image img {
+    max-width: 50%; /* Ancho de la imagen expandida */
+    margin-right: 20px; /* Espacio entre la imagen y la descripción */
+  }
+  
+  .description {
+    margin-top: 0; /* Elimina el margen superior predeterminado */
+    font-size: 18px; /* Ajusta el tamaño del texto de la descripción */
+    text-align: justify; /* Alinea el texto a la izquierda */
+  }
+  .large-image {
+    max-width: 50%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  }
